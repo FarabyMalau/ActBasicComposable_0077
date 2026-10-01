@@ -26,3 +26,11 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+@Preview(showBackground = true)
+@Composable
+fun TataletakPreview() {
+    ActBasicComposable_0077Theme {
+        TataletakBoxColumnRow()
+    }
+}
