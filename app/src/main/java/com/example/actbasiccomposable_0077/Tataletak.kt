@@ -1,4 +1,4 @@
-package com.example.actbasiccomposable
+package com.example.actbasiccomposable_0077
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
