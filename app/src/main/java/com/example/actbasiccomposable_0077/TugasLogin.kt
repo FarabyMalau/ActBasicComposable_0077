@@ -59,6 +59,23 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             contentDescription = null,
             modifier = Modifier.size(120.dp)
         )
+        Spacer(modifier = Modifier.height(60.dp))
+        Text(
+            text = "Nama",
+            color = Color.Red,
+            fontWeight = FontWeight.Bold
+        )
+        Text(
+            text = "Nama Lengkap Kamu",
+            color = Color.Blue,
+            fontWeight = FontWeight.Bold
+        )
+        Text(
+            text = "NIM Kamu",
+            fontSize = 24.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Black
+        )
     }
 }
 
