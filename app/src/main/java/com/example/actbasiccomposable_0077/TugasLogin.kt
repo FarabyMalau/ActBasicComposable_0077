@@ -66,15 +66,26 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold
         )
         Text(
-            text = "Nama Lengkap Kamu",
+            text = "Faraby Muzakki Malau",
             color = Color.Blue,
             fontWeight = FontWeight.Bold
         )
         Text(
-            text = "NIM Kamu",
+            text = "20240140077",
             fontSize = 24.sp,
             fontWeight = FontWeight.Bold,
             color = Color.Black
+        )
+        Spacer(modifier = Modifier.height(12.dp))
+        Image(
+            painter = painterResource(id = R.drawable.foto_kabah),
+            contentDescription = null,
+            contentScale = ContentScale.Fit,
+            modifier = Modifier
+                .size(320.dp)
+                .clip(CircleShape)
+                .background(Color(0xFFE6E6F5))
+                .border(4.dp, Color.White, CircleShape)
         )
     }
 }
